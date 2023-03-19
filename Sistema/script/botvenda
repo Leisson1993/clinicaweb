@@ -13,7 +13,7 @@ menu() {
         msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n\n"
         msg+="<b>VENDEDOR OFICIAL DO VIPBRASIL 🇧🇷</b>\n"
 	msg+="<b>VALOR:</b> 10,00 MENSAL\n"
-	msg+="<b>PIX: </b> https://t.me/pixMEGALODON_SSH \n"
+	msg+="<b>PIX: </b> https://t.me/pixLeiss0n \n"
 	msg+="<b>APERTE EM “COMPRAR ACESSO” E ENVIE SEU COMPROVANTE</b>\n\n"
         msg+="⚠️<b>APENAS CHAME SE REALMENTE FOR COMPRAR</b>⚠️\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
@@ -78,7 +78,7 @@ unset botao1
 botao1=''
 ShellBot.InlineKeyboardButton --button 'botao1' --line 1 --text '♻️GERA TESTE♻️' --callback_data 'gerarssh'
 ShellBot.InlineKeyboardButton --button 'botao1' --line 2 --text '🔰BAIXAR APLICATIVO🔰' --callback_data 'appenviar'
-ShellBot.InlineKeyboardButton --button 'botao1' --line 3 --text '💲COMPRAR ACESSO💲' --callback_data '3' --url 'https://t.me/MEGALODON_SSH'
+ShellBot.InlineKeyboardButton --button 'botao1' --line 3 --text '💲COMPRAR ACESSO💲' --callback_data '3' --url 'https://t.me/Leiss0n
 ShellBot.regHandleFunction --function criarteste --callback_data gerarssh
 ShellBot.regHandleFunction --function enviarapp --callback_data appenviar
 
